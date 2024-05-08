@@ -4,4 +4,66 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+
+
+}
+body{
+    background-color: #b58461;
+}
+#logo{
+    /* size */
+}
+/* .container-fluid{
+    background-color:#654b38;
+    color:aliceblue;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    
+} */
+
+.nav-link{
+ font-family: "Inter", sans-serif;
+ color:aliceblue;
+    
+}
+
+
+
+ :is(#navbar){
+    background-color: #654b38;
+    color: white;
+    font-weight: bold;
+ }
+
+ #name{ 
+    color: aliceblue;
+    font-weight: bold;
+    font-family:"Inter", sans-serif;
+    font-size: 70px;
+    
+ }
+
+ #description{
+    color: aliceblue;
+    align-content: right;
+ }
+/* section:nth-child(even) {
+    background-color: #96735b;
+}
+section:nth-child(odd) {
+    background-color: #6e4931;
+} */
+img[alt='logo']{
+    width: 6rem;
+}
+img[alt='profile'] {
+    width: 35rem;
+    clip-path: circle(50% at 50% 50%);
+    box-shadow: #ffcba7;
+}
+:is(img[alt='logo'], img[alt='profile']){
+    aspect-ratio: 1;
+    object-fit: cover;
+    object-position: center;
 }
