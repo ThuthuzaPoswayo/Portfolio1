@@ -36,18 +36,29 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#About">About Me</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="Education">Education</a>
-                    </li>
-                    <li class="nav-item">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Resume
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" id="Education" href="#">Education</a></li>
+                        <li><a class="dropdown-item" id="Skills" href="#">Skills</a></li>
+                        <li>
+                            <hr class="dropdown-divider" id="Projects" href="#">Projects
+                        </li>
+                        <li><a class="dropdown-item" id="Work Experience" href="#">Work Experience</a></li>
+                    </ul>
+
+                    <!-- <li class="nav-item">
                         <a class="nav-link" aria-current="Skills" href="#">Skills</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" aria-current="Work Experience" href="#"> Work Experience</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" aria current="Projects" href="#">Projects</a>
-                    </li>
+                    <li class="nav-item"> -->
+                    <!-- <a class="nav-link" aria current="Projects" href="#">Projects</a>
+                    </li> -->
+
                     <li class="nav-item">
                         <a class="nav-link" aria-current="Reach Me" href="#">Reach Me</a>
                     </li>
@@ -58,70 +69,68 @@
 
     <main class="container-fluid">
         <section class="container py-2" id="home">
-            <div class="row">
-                <div class="col d-flex align-items-center">
+            <div class="row justify-content-center align-items-center">
+                <div class="col">
                     <img class="img-fluid" src="https://thuthuzaposwayo.github.io/All-images/images/Thutz1.jpg"
                         alt="profile" loading="lazy">
-
-
-
-                    <div class="col">
-                        <h2 id="name"> Thuthuza Poswayo </h2>
-                        <p id="description"> I am an aspiring Front-End and Back-end Web Developer</p>
-                    </div>
+                </div>
+                <div class="col">
+                    <h2 id="name"> Thuthuza Poswayo </h2>
+                    <p id="description"> I am an aspiring Front-End and Back-end Web Developer</p>
                 </div>
             </div>
         </section>
-      </main>
-
-
-
-      <section class="section2">
-        <div class="container">
-            <div class="column">
-
-     <h2 id="about"> About Me</h2>
-
-     <p id="Me">
-        
-        I am a young and ambitious entrepreneur that is seeking to gain skills and experience in the world of coding. 
-
-        I am currently a student at Life Choices Academy, in pursuit of training in Web Development.
-        
-         I believe that this skillset will better equip me to pursue more ventures and open new opportunities for me.
-
-
-
-     </p>
-
-
-</div>
-</div>
-
-<div class="container">
-    <div class="column">
-        <img id="Picture" src="https://thuthuzaposwayo.github.io/All-images/images/Thuthuza.jpeg"
-                        alt="Picture" loading="lazy">
-    </div>
-</div>
-      </section>
-
-
-
-
-
-        
-
-
-
-
-
-
-
-
-
-
+        <section class="container" id="about">
+            <div class="row">
+                <h2 id="About"> About Me</h2>
+            </div>
+            <div class="row">
+                <div class="col d-flex align-items-center">
+                    <p id="Me">
+    
+                        I am a young and ambitious entrepreneur that is seeking to gain skills and experience in the world
+                        of coding.
+    
+                        I am currently a student at Life Choices Academy, in pursuit of training in Web Development.
+    
+                        I believe that this skillset will better equip me to pursue more ventures and open new opportunities
+                        for me.
+    
+    
+    
+                    </p>
+    
+    
+                </div>
+                <div class="col">
+                    <img id="Picture" src="https://thuthuzaposwayo.github.io/All-images/images/Thuthuza.jpeg" alt="Picture"
+                        loading="lazy">
+                </div>
+            </div>
+        </section>
+    
+    
+    
+    
+        <section class="Resume">
+    
+            <h2 class="Resume">Resume</h2>
+            <h3 class="underline"> _________________________</h3>
+    
+            <div class="columns"> Education</div>
+    
+    
+            <div class="columns"> Skills</div>
+            <div class="columns"> Work Experience</div>
+    
+            </div>
+    
+    
+    
+    
+        </section>
     </main>
+
 
 </body>
 
