@@ -10,6 +10,7 @@
 }
 body{
     background-color: #b58461;
+    text-align: center;
 }
 #logo{
     /* size */
@@ -73,7 +74,7 @@ img[alt='profile'] {
 
 }
 
-#about{
+#About{
     margin-left: 40px;
     padding-top: 85px;
 
@@ -101,9 +102,26 @@ img[alt='Picture'] {
  padding-top: 75px;
 }
 
-.container{
-    display:flex;
-    align-items: center;
-    justify-content: right;
-    object-position: left;
+
+.Resume{
+    font-size: 75px;
+    font-family:"Inter", sans-serif;
+    font-weight: bold;
+    color: aliceblue;
+    padding-top: 40px;
+
+}
+
+#underline{
+color: aliceblue;
+
+}
+
+.columns{
+ font-size: 40px;
+ font-style: italic;
+ font-family: "Inter", sans-serif;
+ 
+
+
 }
