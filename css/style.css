@@ -67,3 +67,43 @@ img[alt='profile'] {
     object-fit: cover;
     object-position: center;
 }
+.section2{
+
+  background-color: #654b38;
+
+}
+
+#about{
+    margin-left: 40px;
+    padding-top: 85px;
+
+    color:aliceblue;
+    align-self: flex-start;
+    font-size: 70px;
+    align-content: center;
+    font-weight: bold;
+    font-family: "Inter", sans-serif;
+}
+
+#Me{
+    margin-left: 40px;
+    
+    word-wrap: normal;
+}
+img[alt='Picture'] {
+    aspect-ratio: 1;
+    object-fit: cover;
+    object-position: center;
+    width: 35rem;
+    
+}
+#about .container{
+ padding-top: 75px;
+}
+
+.container{
+    display:flex;
+    align-items: center;
+    justify-content: right;
+    object-position: left;
+}
