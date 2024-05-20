@@ -14,6 +14,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+
     <title>My Portfolio</title>
 
 </head>
@@ -34,33 +37,26 @@
                         <a class="nav-link " aria-current="page" href="#home">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#About">About Me</a>
+                        <a class="nav-link" href="#about">About Me</a>
                     </li>
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                        aria-expanded="false">
-                        Resume
-                    </a>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" id="Education" href="#">Education</a></li>
-                        <li><a class="dropdown-item" id="Skills" href="#">Skills</a></li>
-                        <li>
-                            <hr class="dropdown-divider" id="Projects" href="#">Projects
+                        <a class="nav-link " aria-current="page" href="#Resume">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="#Resume">Skills</a>
+                    </li><li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="#Resume">Work Experience </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria current="Projects" href="#Projects">Projects</a>
+                        </li> 
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="Testimonial">Testimonials</a>
                         </li>
-                        <li><a class="dropdown-item" id="Work Experience" href="#">Work Experience</a></li>
-                    </ul>
 
-                    <!-- <li class="nav-item">
-                        <a class="nav-link" aria-current="Skills" href="#">Skills</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="Work Experience" href="#"> Work Experience</a>
-                    </li>
-                    <li class="nav-item"> -->
-                    <!-- <a class="nav-link" aria current="Projects" href="#">Projects</a>
-                    </li> -->
+           
 
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="Reach Me" href="#">Reach Me</a>
+                        <a class="nav-link" aria-current="page" href="#Reach">Reach Me</a>
                     </li>
                 </ul>
             </div>
@@ -80,7 +76,7 @@
                 </div>
             </div>
         </section>
-        <section class="container" id="about">
+        <section class="container2" id="about">
             <div class="row">
                 <h2 id="About"> About Me</h2>
             </div>
@@ -88,13 +84,13 @@
                 <div class="col d-flex align-items-center">
                     <p id="Me">
     
-                        I am a young and ambitious entrepreneur that is seeking to gain skills and experience in the world
+                        "I am a young and ambitious entrepreneur that is seeking to gain skills and experience in the world
                         of coding.
     
                         I am currently a student at Life Choices Academy, in pursuit of training in Web Development.
     
                         I believe that this skillset will better equip me to pursue more ventures and open new opportunities
-                        for me.
+                        for me."
     
     
     
@@ -104,7 +100,7 @@
                 </div>
                 <div class="col">
                     <img id="Picture" src="https://thuthuzaposwayo.github.io/All-images/images/Thuthuza.jpeg" alt="Picture"
-                        loading="lazy">
+                        loading="lazy" class="img-fluid">
                 </div>
             </div>
         </section>
@@ -112,16 +108,53 @@
     
     
     
-        <section class="Resume">
+        <section class="container" id="Resume">
+
     
-            <h2 class="Resume">Resume</h2>
-            <h3 class="underline"> _________________________</h3>
-    
-            <div class="columns"> Education</div>
-    
-    
-            <div class="columns"> Skills</div>
-            <div class="columns"> Work Experience</div>
+            <h2 id="About">Resume</h2>
+            
+
+
+            <div id="container">
+            <div id="block1"> 
+                <h3 class="headings">Education <i class="bi bi-book"></i> </h3> <br>
+
+            <ul> NSC Matric 2018- Voortrekker High School</ul>
+             <ul>SciMathus 2019-   Stellenbosch University-SUNCEP</ul>
+
+             
+
+            
+            
+            
+            </div>
+            <div id="block2"> 
+             <h3 class = headings> Skills </h3> <br>
+
+                <ul> Innovative</ul>
+                <ul>Computer Knowledge</ul>
+                <ul> Team Leading</ul>
+                <ul>Excellent Communication</ul>
+                <ul>Entreprenuerial Skills</ul>
+                <ul>Academic Writing</ul>
+            </div>
+
+
+            <div id="block3"> <h3 class= headings>Work Experience</h3> <br>
+            <ul>Section Monitor- Rozenhof Residence
+                2019</ul>
+                <ul>Thuznails Nail Technitian & Owner
+
+                    2020- current
+                </ul>
+                
+
+
+
+            
+            
+            </div>
+            </div>
     
             </div>
     
@@ -129,9 +162,139 @@
     
     
         </section>
-    </main>
 
+        <section class="container" id="Projects">
+            <div class="row">
+                <h2 id="About"> Projects <i class="bi bi-tools"></i></h2>
+
+
+
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                      <h5 class="card-title">Calculator <i class="bi bi-calculator"></i></h5>
+                      <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
+                      
+                      <a href="#" class="card-link">https://github.com/ThuthuzaPoswayo/calculator.git</a>
+                      <a href="#" class="card-link">https://calculator-one-green.vercel.app/</a>
+                    </div>
+                  </div>
+<br>
+                  <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                      <h5 class="card-title">Keyboard<i class="bi bi-keyboard-fill"></i> </h5>
+                
+                      <a href="#" class="card-link">https://github.com/ThuthuzaPoswayo/Keyboard.git</a>
+
+                      <a href="#" class="card-link">https://keyboard-pink.vercel.app/</a>
+                    </div>
+                  </div>
+                  <br>
+                  <div class="card" style="width: 18rem;">
+                   
+                  </div>
+                  <br>
+                  <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+
+                      <h5 class="card-title">Website</h5>
+                      <h6 class="card-subtitle mb-2 text-body-secondary"></h6>
+                      <a href="#" class="card-link">https://github.com/ThuthuzaPoswayo/group-nailwebsite.git</a>
+                      <a href="#" class="card-link">https://group-nailwebsite.vercel.app/</a>
+
+                    </div>
+                  </div>
+
+                  <br>
+                  <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                      <h5 class="card-title">Business Card</h5>
+                      <a href="#" class="card-link">https://github.com/ThuthuzaPoswayo/Business.git</a>
+                      <a href="#" class="card-link">https://business-ashen.vercel.app/</a>
+                    </div>
+                  </div>
+
+            </div>
+
+
+
+        </section>
+
+
+<section class="container" id="Testimonial" >
+
+   <h2 id="About">Testimonials</h2> <br>
+              <div class="container">
+
+
+
+    <div class="card" style="width: 18rem;">
+        <img src="https://thuthuzaposwayo.github.io/All-images/images/Sims.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+      <p class="card-text">"Thuthuza is always within arm's reach when you need help and always assists with kindness and enthusiasm" - Simanye.</p> 
+    </div>
+  </div>
+
+  <div class="card" style="width: 18rem;">
+    <img src="https://thuthuzaposwayo.github.io/All-images/images/Lamla.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <p class="card-text">"Thuthuza embodies boldness, enthusiasm, and drive. Her kindness and care shine through in every interaction. A true asset to any team, she uplifts others with her positivity and determination. Working with Thuthuza is a joy and an inspiration."- Lamlankosi.</p>
+    </div>
+  </div>
+
+  <div class="card" style="width: 18rem;">
+    <img src="https://thuthuzaposwayo.github.io/All-images/images/Mapule.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <p class="card-text">"Thuthuza is true team player and an absolute joy to work with!"- Mapule</p>
+    </div>
+  </div>
+  <div class="card" style="width: 18rem;">
+    <img src="https://thuthuzaposwayo.github.io/All-images/images/Yakupha.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <p class="card-text">"I have had the pleasure of working with Thuthuza for a couple of months and I can confidently say that she is an exeptional professional. Her dedication makes her an asset"- Yakupha</p>
+    </div>
+  </div>
+  <div class="card" style="width: 18rem;">
+    <img src="https://thuthuzaposwayo.github.io/All-images/images/joel2.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <p class="card-text">Thuthuza is a highly creative, well-behaved, and dedicated individual who thrives on collaborating with her peers and excels at working on project assignments. She has acquired various skills and tools, including HTML5, CSS3, Bootstrap, VS Code, and wireframe. I am pleased to introduce her as an exceptional candidate and developer. - Joel(Lecturer)</p>
+
+    </div>
+  </div>
+  </div>
+
+
+
+
+</section>
+
+        <section class="container" id="Reach">
+           <h2 id="About"> Reach Me </h2>
+<div class="container" id="handles>">
+
+     <ul><i class="bi bi-envelope-at-fill"></i>thuthuzaposwayo@gmail.com</ul>
+      <ul> <i class="bi bi-telephone-fill"></i> 0649022355 </ul>
+      <ul> <i class="bi bi-instagram"></i> @thuthuzaposwayo</ul> <br>
+        </section>
+
+    
+    </main>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
 </body>
+
+<footer>
+<div id="footer">
+ <p id="footer">
+    <i class="bi bi-c-circle"></i> Thuthuza Poswayo <br>
+    2024
+
+ </p>
+
+</div>
+
+
+</footer>
 
 </html>
