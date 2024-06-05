@@ -36,12 +36,16 @@ body{
     color: white;
     font-weight: bold;
  }
+ 
+ .container{
+    padding: 2 rem;
+ }
 
  #name{ 
     color: aliceblue;
     font-weight: bold;
     font-family:"Inter", sans-serif;
-    font-size: 70px;
+    font-size: 5rem;
     
  }
 
@@ -49,19 +53,16 @@ body{
     color: aliceblue;
     align-content: right;
  }
-/* section:nth-child(even) {
-    background-color: #96735b;
-}
-section:nth-child(odd) {
-    background-color: #6e4931;
-} */
+
 img[alt='logo']{
     width: 6rem;
 }
 img[alt='profile'] {
     width: 35rem;
     clip-path: circle(50% at 50% 50%);
-    box-shadow: #ffcba7;
+    animation: slideIn 1s ease-out 0.5s;
+
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
 }
 :is(img[alt='logo'], img[alt='profile']){
     aspect-ratio: 1;
@@ -77,10 +78,10 @@ img[alt='profile'] {
 #About{
     margin-left: 40px;
     padding-top: 85px;
-
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     color:aliceblue;
     align-self: flex-start;
-    font-size: 70px;
+    font-size: 5 rem;
     align-content: center;
     font-weight: bold;
     font-family: "Inter", sans-serif;
@@ -90,6 +91,9 @@ img[alt='profile'] {
     margin-left: 40px;
     
     word-wrap: normal;
+    color: aliceblue;
+    font-weight: bold;
+    font-family:"Inter", sans-serif ;
 }
 img[alt='Picture'] {
     aspect-ratio: 1;
@@ -98,30 +102,117 @@ img[alt='Picture'] {
     width: 35rem;
     
 }
-#about .container{
+.container2{
  padding-top: 75px;
+ background-color: #654b38;
 }
 
 
 .Resume{
     font-size: 75px;
-    font-family:"Inter", sans-serif;
+    font-family:images/Mapule.jpg;
     font-weight: bold;
     color: aliceblue;
     padding-top: 40px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 
 }
 
-#underline{
+
+    
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+
+}
+
+#container div{
+height: 370px;
+width: 340px;
+background: #654b38;
+margin: 70px;
+
+}
+
+.headings{
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    color: aliceblue;
+    padding-bottom: 20 px;
+
+}
+
+#block1{
+color: #f5d7c2;
+font-weight: bold;
+animation: slideIn 1s ease-out;
+box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+border-radius: 10px;
+
+}
+
+#block2{
+    color: #f5d7c2;
+    font-weight: bold;
+    animation: slideIn 1s ease-out 0.5s;
+
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+
+}
+#block3{
+    color: #f5d7c2;
+    font-weight: bold;
+    animation: slideIn 1s ease-out 1s;
+
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+
+    
+}
+
+
+@keyframes slideIn {
+    0% {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+#Projects{
+    background-color: #654b38;
+}
+.card{
+    margin: 50px;
+}
+
+#Reach{
+background-color: #654b38;
+}
+
+.card-text{
+    font-style: italic;
+    font-family: "Inter", sans-serif;
+
+}
+
+.card{
+    display: inline-block;
+
+}
+.card-body{
+    background-color: #ffe5d3;
+}
+
+#footer{
+background-color: black;
 color: aliceblue;
-
-}
-
-.columns{
- font-size: 40px;
- font-style: italic;
- font-family: "Inter", sans-serif;
- 
-
+font-family: 'Times New Roman', Times, serif;
 
 }
